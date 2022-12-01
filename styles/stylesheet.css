@@ -1,14 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #282828;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
-p{
+.big-b{
+    display: block;
     font-family: "Times", sans-serif;
     color:white;
     font-size: 9.375rem;
+    margin-top: 1.25rem;
+    margin-left: 2.3125rem;
 }
 
-::placeholder{
+.main-search-container{
+    justify-content: center;
+    align-items: center;
+}
+.main-search{
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+}
+
+.main-search::placeholder{
     color: #C1C1C1;
     font-family: 'Roboto', sans-serif;
 }
-
