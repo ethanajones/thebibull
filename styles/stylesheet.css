@@ -1,6 +1,14 @@
 body{
-    background-color: red;
+    background-color: #282828;
 }
 p{
-    font-size: 2rem;
+    font-family: "Times", sans-serif;
+    color:white;
+    font-size: 9.375rem;
 }
+
+::placeholder{
+    color: #C1C1C1;
+    font-family: 'Roboto', sans-serif;
+}
+
